@@ -1,0 +1,41 @@
+{
+  "rootNodes": ["artboard1"],
+  "nodes": {
+    "artboard1": {
+      "id": "artboard1",
+      "type": "artboard",
+      "width": 1080,
+      "height": 1080,
+      "children": ["headline1", "product1"]
+    },
+    "headline1": {
+      "id": "headline1",
+      "type": "text",
+      "name": "headline",
+      "x": 100,
+      "y": 100,
+      "width": 400,
+      "height": 80,
+      "nx": 0.1,
+      "ny": 0.1,
+      "nw": 0.37,
+      "nh": 0.07,
+      "data": {
+        "content": "Luxury Comfort"
+      }
+    },
+    "product1": {
+      "id": "product1",
+      "type": "image",
+      "name": "product",
+      "x": 250,
+      "y": 300,
+      "width": 500,
+      "height": 500,
+      "nx": 0.23,
+      "ny": 0.28,
+      "nw": 0.46,
+      "nh": 0.46
+    }
+  }
+}
