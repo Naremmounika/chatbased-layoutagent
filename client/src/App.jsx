@@ -28,7 +28,7 @@ function App() {
     setLoading(true);
 
     try {
-      const response = await axios.post("http://localhost:3001/api/chat", {
+      const response = await axios.post("https://chatbased-layoutagent.onrender.com/api/chat", {
         message: messageToSend,
         layout
       });
@@ -72,7 +72,7 @@ function App() {
     <div className="app-container">
       <div className="sidebar">
         <div>
-          <h2>✨ Layout Agent</h2>
+          <h2 className="layout-agent-heading">✨ Layout Agent</h2>
           <p className="subtitle">AI-powered design transformations</p>
         </div>
 

@@ -5,7 +5,7 @@ body {
 
 .app-container {
   display: flex;
-  min-height: 100vh;
+  min-height: 80vh;
   background: linear-gradient(135deg, #dbeafe 0%, #eef2ff 50%, #f5f3ff 100%);
 }
 
@@ -47,7 +47,11 @@ body {
   background: #374151;
   color: white;
 }
-
+.layout-agent-heading{
+  color:#ffffff;
+  font-size:15px;
+  font-family:"roboto";
+}
 .input-container {
   display: flex;
   gap: 8px;
